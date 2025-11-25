@@ -4,15 +4,15 @@ A plugin for the [Glyphs font editor](http://glyphsapp.com/) that enhances the P
 
 ## Features
 
-**Simplify Path** — drawing with the Pencil tool produces a clearer path by smoothing ripples, removing tight nodes, and fixing degraded or inflected handles.
-
-![](Images/SimplifyPath.gif)
-
 **Redraw Path** — hold Option `⌥` while drawing with the Pencil tool to merge drawn path with the nearest existing path, creating smooth connections where they join.
 
 ![](Images/RedrawPath.gif)
 
 **Draw Closed Path** — hold Shift `⇧` while drawing with the Pencil tool to automatically close drawn path.
+
+**Simplify Path** — drawing with the Pencil tool produces a clearer path by smoothing ripples, removing tight nodes, and fixing degraded or inflected handles.
+
+![](Images/SimplifyPath.gif)
 
 ## Installation
 
