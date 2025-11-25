@@ -16,7 +16,7 @@ In `Menu > Window > Plugin Manager`, search Pencil Modifier, click Install, and 
 
 ## Settings
 
-The plugin settings are located in `Menu > View > Pencil Modifier`.
+The plugin settings are located in `Menu > Path > Pencil Modifier`.
 
 ![](Images/Settings.png)
 
@@ -79,8 +79,8 @@ The plugin settings are located in `Menu > View > Pencil Modifier`.
 6. Find closest area on closest path and detect nodes for connection. Find two closest segments on the same existing path – one that is closer to start side of new path and another one that is closer to end side of new path. Find the closest area that includes both closest segments and shortest (by amount of nodes) side between them. If the closest path was open and its last-first nodes lies inside the closest area, then safely close the path without shifting closest area indices. This is the case when new path is intended to connect the closest path ends. Find connection nodes and connection vectors on existing path.
 7. Ensure new path follow the same direction as closest path and their indices follows the same flow. Check indices order on the first two nodes of the closest area (with wraparound). If indices order is decreasing, that means that new path has different winding direction form existing path direction. If new path winding direction is different from existing path direction, then new path will be reversed, and all the references to nodes will be swapped respectively. So, after reverse, start becomes end and end becomes start.
 8. Merge closest path and new path. Remove nodes inside the closest area. Fix the end connection node type on the existing path if its segment wasn't `LINE`. Insert nodes of new path. Remove new path. Re-identify new path nodes after merge.
-9. Adjust new path connection nodes and handles to preserve existing path smothness. Step is optional and controlled by the `Menu > View > Pencil Modifier > Adjust Connections` option, and is active by default. New path connection nodes are placed on existing path vectors saved before the merge. If connection nodes of new and existing paths are close, they will be merged in the same coordinate. New path connection handles (if presented) are placed on existing path vectors as well.
-10. Adjust connection handles to avoid loops or inflections. Step is optional and controlled by the `Menu > View > Pencil Modifier > Adjust Connections` option, and is active by default. If start or end connection segments are curves (usually they are), they handles will be shortened to avoid loops or inflections.
+9. Adjust new path connection nodes and handles to preserve existing path smothness. Step is optional and controlled by the `Menu > Path > Pencil Modifier > Adjust Connections` option, and is active by default. New path connection nodes are placed on existing path vectors saved before the merge. If connection nodes of new and existing paths are close, they will be merged in the same coordinate. New path connection handles (if presented) are placed on existing path vectors as well.
+10. Adjust connection handles to avoid loops or inflections. Step is optional and controlled by the `Menu > Path > Pencil Modifier > Adjust Connections` option, and is active by default. If start or end connection segments are curves (usually they are), they handles will be shortened to avoid loops or inflections.
 </details>
 
 <details>
@@ -90,7 +90,7 @@ The plugin settings are located in `Menu > View > Pencil Modifier`.
 2. Shift key is held before starting to draw.
 3. Path is drawn.
 4. Close drawn path.
-5. Correct path direction. Step is optional and controlled by the `Menu > View > Pencil Modifier > Correct Path Direction` option, and is active by default. It allows to draw a shape or counter shape without thinking what winding direction is correct.
+5. Correct path direction. Step is optional and controlled by the `Menu > Path > Pencil Modifier > Correct Path Direction` option, and is active by default. It allows to draw a shape or counter shape without thinking what winding direction is correct.
 </details>
 
 ## Standalone scripts
