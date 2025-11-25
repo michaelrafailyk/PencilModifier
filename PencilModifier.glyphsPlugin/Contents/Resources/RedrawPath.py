@@ -1,4 +1,4 @@
-# MenuTitle: RedrawPath
+# MenuTitle: Redraw Path
 # encoding: utf-8
 # Copyright: Michael Rafailyk, 2025, www.michaelrafailyk.com Version 1.0
 
