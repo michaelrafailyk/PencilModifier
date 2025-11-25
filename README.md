@@ -4,11 +4,15 @@ A plugin for the [Glyphs font editor](http://glyphsapp.com/) that enhances the P
 
 ## Features
 
-- Simplify Path — drawing with the Pencil tool produces a clearer path by smoothing ripples, removing tight nodes, and fixing degraded or inflected handles.
-- Redraw Path — hold Option `⌥` while drawing with the Pencil tool to merge drawn path with the nearest existing path, creating smooth connections where they join.
-- Draw Closed Path — hold Shift `⇧` while drawing with the Pencil tool to automatically close drawn path.
+**Simplify Path** — drawing with the Pencil tool produces a clearer path by smoothing ripples, removing tight nodes, and fixing degraded or inflected handles.
+
+![](Images/SimplifyPath.gif)
+
+**Redraw Path** — hold Option `⌥` while drawing with the Pencil tool to merge drawn path with the nearest existing path, creating smooth connections where they join.
 
 ![](Images/RedrawPath.gif)
+
+**Draw Closed Path** — hold Shift `⇧` while drawing with the Pencil tool to automatically close drawn path.
 
 ## Installation
 
@@ -96,8 +100,6 @@ The plugin settings are located in `Menu > Path > Pencil Modifier`.
 ## Standalone scripts
 - [Simplify Path](PencilModifier.glyphsPlugin/Contents/Resources/SimplifyPath.py) — smoothes ripples, removes tight nodes, and fixes degraded or inflected handles. In plugin, it processes last drawn path. In standalone version, it processes the selected path or all paths on layer if nothing is selected. The script is primarily designed for rough outlines sketched with a Pencil tool or traced from a raster images.
 - [Redraw Path](PencilModifier.glyphsPlugin/Contents/Resources/RedrawPath.py) — merges last added path with the nearest path into one continuous path with smooth connections. In plugin, it processes last drawn path. In standalone version, it processes the path that is last added to the layer.
-
-![](Images/SimplifyPath.gif)
 
 ## Project background
 
