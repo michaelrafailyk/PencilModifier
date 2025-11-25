@@ -98,8 +98,10 @@ The plugin settings are located in `Menu > Path > Pencil Modifier`.
 </details>
 
 ## Standalone scripts
-- [Simplify Path](PencilModifier.glyphsPlugin/Contents/Resources/SimplifyPath.py) — smoothes ripples, removes tight nodes, and fixes degraded or inflected handles. In plugin, it processes last drawn path. In standalone version, it processes the selected path or all paths on layer if nothing is selected. The script is primarily designed for rough outlines sketched with a Pencil tool or traced from a raster images.
-- [Redraw Path](PencilModifier.glyphsPlugin/Contents/Resources/RedrawPath.py) — merges last added path with the nearest path into one continuous path with smooth connections. In plugin, it processes last drawn path. In standalone version, it processes the path that is last added to the layer.
+
+[Simplify Path](PencilModifier.glyphsPlugin/Contents/Resources/SimplifyPath.py) — smoothes ripples, removes tight nodes, and fixes degraded or inflected handles. In plugin, it processes last drawn path. In standalone version, it processes the selected path or all paths on layer if nothing is selected. The script is primarily designed for rough outlines sketched with a Pencil tool or traced from a raster images.
+
+[Redraw Path](PencilModifier.glyphsPlugin/Contents/Resources/RedrawPath.py) — merges last added path with the nearest path into one continuous path with smooth connections. In plugin, it processes last drawn path. In standalone version, it processes the path that is last added to the layer.
 
 ## Project background
 
