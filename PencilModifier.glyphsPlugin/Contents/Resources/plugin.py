@@ -1,7 +1,7 @@
 # encoding: utf-8
 # Pencil Modifier plugin for Glyphs
 # Copyright: Michael Rafailyk, 2025, www.michaelrafailyk.com Version 1.0
-# Github: https://github.com/michaelrafailyk/PencilModifier
+# GitHub: https://github.com/michaelrafailyk/PencilModifier
 
 import objc
 from GlyphsApp.plugins import GeneralPlugin
