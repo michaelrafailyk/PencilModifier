@@ -648,7 +648,7 @@ def redraw_path(layer, paths, new_path, adjustConnections):
 	(
 		NS1, NS1h, NS2h, NS2, NE1, NE1h, NE2h, NE2
 	) = merge_paths(layer, closest_path, closest_area, CS1, new_path)
-	# Adjust connections (optional, controlled by plugin settings in View menu)
+	# Adjust connections (optional, controlled by plugin settings in Path menu)
 	if adjustConnections:
 		# Adjust new path connection nodes and handles to preserve path smothness
 		adjust_connections(NS1, NS1h, NE1, NE1h, CS1, CE1, CS_vector, CE_vector, closest_path)
