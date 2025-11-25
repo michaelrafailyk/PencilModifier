@@ -6,7 +6,7 @@
 import objc
 from GlyphsApp.plugins import GeneralPlugin
 from GlyphsApp import (
-	Glyphs, VIEW_MENU, DRAWFOREGROUND,
+	Glyphs, PATH_MENU, DRAWFOREGROUND,
 	MOUSEMOVED, MOUSEDRAGGED, MOUSEDOWN, MOUSEUP,
 	OFFCURVE, CURVE, QCURVE, LINE
 )
@@ -93,7 +93,7 @@ class PencilModifier(GeneralPlugin):
 		addMenuItem("Correct Path Direction", "updateCorrectPathDirection:", "CorrectPathDirection")
 		menuEntry = NSMenuItem.alloc().initWithTitle_action_keyEquivalent_(self.menuName, None, "")
 		menuEntry.setSubmenu_(submenu)
-		Glyphs.menu[VIEW_MENU].append(menuEntry)
+		Glyphs.menu[PATH_MENU].append(menuEntry)
 		# Activate/deactivate plugin at launch
 		if self.SETTINGS["Enabled"]:
 			self.activate()
