@@ -10,7 +10,7 @@ A plugin for the [Glyphs font editor](http://glyphsapp.com/) that enhances the P
 
 **Draw Closed Path** — hold Shift `⇧` while drawing with the Pencil tool to automatically close drawn path.
 
-**Simplify Path** — drawing with the Pencil tool produces a clearer path by smoothing ripples, removing tight nodes, and fixing degraded or inflected handles.
+**Simplify Drawn Path** — drawing with the Pencil tool produces a clearer path by smoothing ripples, removing tight nodes, and fixing degraded or inflected handles.
 
 ![](Images/SimplifyPath.gif)
 
